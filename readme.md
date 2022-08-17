@@ -43,6 +43,8 @@ oc create secret generic kafka-props --from-file application.properties
 
 ## 3. Running a simple Hello Rest API
 
+This is a simple rest API that provides a hello response when invoked
+
 ```
 kamel run RestDSL.java --dev
 ```
